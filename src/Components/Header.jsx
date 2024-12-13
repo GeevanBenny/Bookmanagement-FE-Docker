@@ -15,7 +15,7 @@ function Header() {
         </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" className='d-flex justify-content-end'>
       <div class="navbar-nav ">
-      <Link style={{ textDecoration: 'none', color: 'black' }} to="/">Home</Link>
+      <Link style={{ textDecoration: 'none', color: 'black' }} to="/" className='me-4'>Home</Link>
         <Link style={{ textDecoration: 'none', color: 'black' }} to='/form' >Add Book</Link>
        
         
