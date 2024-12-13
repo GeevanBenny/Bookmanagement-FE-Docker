@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // You can import an external image or use a local path like this:
 // import logo from './path-to-your-logo.svg'; 
@@ -14,8 +15,9 @@ function Header() {
         </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" className='d-flex justify-content-end'>
       <div class="navbar-nav ">
-        <a class="nav-link"  href="">Home</a>
-        <a class="nav-link" href="/form">Add Book</a>
+      <Link style={{ textDecoration: 'none', color: 'black' }} to="/">Home</Link>
+        <Link style={{ textDecoration: 'none', color: 'black' }} to='/form' >Add Book</Link>
+       
         
       </div>
     </div>
