@@ -16,7 +16,7 @@ export const getAllProduct = async (reqHeader) => {
 
 export const deleteProjectApi = async (Id, reqHeader) => {
     try {
-        const response = await commonApi('DELETE', `${BASE_URL}/books/${Id}`, {}, reqHeader);
+        const response = await commonApi('DELETE', `${BASE_URL}/api/books/${Id}`, {}, reqHeader);
         return response; // Return the response from the API
     } catch (error) {
         console.error('Error deleting book:', error);
