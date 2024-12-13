@@ -9,7 +9,7 @@ function Header() {
       <div className="container-fluid">
         <a className="navbar-brand" href="">
           {/* You can replace the src below with the actual path to your logo */}
-          <i class="fa-solid fa-book ms-4 me-2"></i>
+          <i class="fa-solid fa-book ms-5 me-2"></i>
           Book Management
         </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" className='d-flex justify-content-end'>
